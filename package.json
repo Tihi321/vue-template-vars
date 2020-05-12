@@ -1,0 +1,25 @@
+{
+  "name": "vue-template-vars",
+  "version": "1.0.0",
+  "author": "Tihomir Selak",
+  "license": "MIT",
+  "description": "Vue 3 hook for outputing template variables",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "keywords": [
+    "vue",
+    "template vars",
+    "hooks"
+  ],
+  "dependencies": {
+    "vue": "^3.0.0-beta.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tihi321/vue-template-vars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tihi321/vue-template-vars/issues"
+  },
+  "homepage": "https://github.com/Tihi321/vue-template-vars#readme"
+}
