@@ -2,7 +2,18 @@
 
 ### Introduction
 
-Vue template vars is hook package for [Vue.js](http://vuejs.org/) version 3 and [Composition Api](https://composition-api.vuejs.org). Helps to avoid long return from setup function. It references all reactive state object in templateVars object, that is spread in the return at the end of setup function.
+Vue template vars is hook package for [Vue 3](http://vuejs.org/) and [Composition Api](https://composition-api.vuejs.org). Which is at the moment in beta and is not recommended to use in production. Vue template vars help with long return statement from setup function. It references all reactive state in templateVars object. Under the hood it uses standard vue hooks for reactive state.
+
+## Install
+
+#### npm
+``` bash
+npm i vue-template-vars
+```
+#### Yarn
+``` bash
+yarn add vue-template-vars
+```
 
 ## Usage
 
@@ -24,7 +35,7 @@ Most important thing for variables to be available inisde a template, you need t
 return { ...templateVars }
 ```
 
-All the hooks behave the same as VUE native hooks, what is different is second argument. Second argument is the name of the variable referenced inside the template.
+All the hooks behave the same as vue native hooks, what is different is the second argument. Second argument is the name of the variable referenced inside the template.
 
 ## Example
 
@@ -47,8 +58,3 @@ const count = templateRef(0, "templateCount");
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
-
-
-### Keywords
-
-[vue](https://www.npmjs.com/search?q=keywords:vue)
