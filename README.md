@@ -54,6 +54,8 @@ To be able to manipulate reactive object inside setup function, just assign it t
 ```javascript
 const count = templateRef(0, "templateCount");
 ```
+### Live example
+You can view them in action on [Code sandbox](https://codesandbox.io/s/vue-template-vars-example-7m9xe?file=/src/App.vue).
 
 ## License
 
