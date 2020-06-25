@@ -1,6 +1,6 @@
 {
   "name": "vue-template-vars",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Tihomir Selak",
   "license": "MIT",
   "description": "Vue 3 hook for outputting template variables",
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/Tihi321/vue-template-vars#readme",
   "devDependencies": {
+    "@types/node": "^14.0.14",
     "typescript": "^3.9.5"
   }
 }
